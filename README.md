@@ -89,33 +89,12 @@ Blynk.virtualWrite(V3, SpO2);
 - **V2:** Heart Rate (BPM)
 - **V3:** SpO2 Percentage
 
-## **7. Troubleshooting & Debugging**
-- **Wi-Fi Connection Issues:**
-  - Verify **SSID and password** in the code.
-  - Ensure the **Wi-Fi network is stable**.
-  - Check if the **ESP32 is in range of the router**.
-
-- **Blynk Not Updating:**
-  - Ensure **Blynk Authentication Token** is correct.
-  - Check if **ESP32 is online in the Blynk app**.
-  - Restart the ESP32 if data is not appearing.
-
-- **Sensor Readings are NaN or Zero:**
-  - Verify **sensor connections and wiring**.
-  - Ensure **proper power supply** to sensors.
-  - Check **library dependencies** for compatibility.
-
-- **Code Upload Failure:**
-  - Ensure the **correct ESP32 board is selected**.
-  - Check if another application is using the **serial port**.
-  - Press and hold the **BOOT button** on ESP32 while uploading.
-
-## **8. Future Enhancements**
+## **6.3. Future Enhancements**
 - **Cloud Data Storage** – Store historical data for long-term analysis.
 - **AI-Based Health Predictions** – Use machine learning for anomaly detection.
 - **Remote Doctor Alerts** – Notify doctors/caregivers in case of emergencies.
 
-## **9. References**
+## **7. References**
 - **Blynk Documentation:** [https://docs.blynk.io](https://docs.blynk.io)
 - **ESP32 Technical Guide:** [https://docs.espressif.com](https://docs.espressif.com)
 - **MAX30100 Pulse Oximeter Guide:** [https://lastminuteengineers.com/max30100-pulse-oximeter-arduino-tutorial/](https://lastminuteengineers.com/max30100-pulse-oximeter-arduino-tutorial/)
